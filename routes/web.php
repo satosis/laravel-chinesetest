@@ -21,4 +21,5 @@ Route::get('/', function () {
 Route::get('/admin.cn.queryScore.do', function () {
     return view('welcome');
 });
+
 Route::get('/admin.cn.queryScore.do', [UserController::class, 'index']);
