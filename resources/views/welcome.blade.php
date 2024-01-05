@@ -163,7 +163,7 @@
                                         {{ $user->speaking_point }}
                                     </td>
                                     <td align="center">{{ $user->speaking_point }}</td>
-                                    <td align="center">不合格</td>
+                                    <td align="center">{{ $user->status }}</td>
                                 </tr>
                             </tbody>
                         </table>
