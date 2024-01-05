@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://99f5-2402-9d80-283-8be4-e898-14ad-1de3-80ca.ngrok-free.app/css/phone.css" type="text/css">
+    <link rel="stylesheet" href="https://satosis.github.io/html-chinesetest/css/phone.css" type="text/css">
     <style type="text/css">
         @font-face {
             font-weight: 400;
@@ -42,7 +42,7 @@
                             <tr>
                                 <td class="active text-right">Name on Certificate </td>
                                 <td>{{ $user->name }}</td>
-                                <td rowspan="5" width="100px"><img src="https://99f5-2402-9d80-283-8be4-e898-14ad-1de3-80ca.ngrok-free.app{{ $user->avatar }}" height="200px"></td>
+                                <td rowspan="5" width="100px"><img src="https://satosis.github.io/html-chinesetest{{ $user->avatar }}" height="200px"></td>
                             </tr>
                             <tr>
                                 <td class="active text-right">Chinese Name</td>
