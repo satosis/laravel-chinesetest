@@ -26,12 +26,11 @@
         "SESSION_DRIVER": "cookie",
 
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "aws.connect.psdb.cloud",
+        "DB_HOST": "rds-full-option.c7uc62kumx7o.ap-southeast-1.rds.amazonaws.com",
         "DB_PORT": "3306",
         "DB_DATABASE": "laravel",
-        "DB_USERNAME": "hbdgtgz14wesnejitv2x",
-        "DB_PASSWORD": "pscale_pw_koq4NzkPYAMVfxFDWOY2jn49eOq8E1PwKLL8CmW4g0z",
-        "MYSQL_ATTR_SSL_CA": "https://www.chinesetest.homes/certs/cacert.pem"
+        "DB_USERNAME": "admin",
+        "DB_PASSWORD": "123456789"
 
     }
 }

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/phone.css" type="text/css">
+    <link rel="stylesheet" href="https://1e1c-2402-9d80-283-8be4-c10f-d952-a55a-6b1c.ngrok-free.app/css/phone.css" type="text/css">
     <style type="text/css">
         @font-face {
             font-weight: 400;
@@ -42,7 +42,7 @@
                             <tr>
                                 <td class="active text-right">Name on Certificate </td>
                                 <td>{{ $user->name }}</td>
-                                <td rowspan="5" width="100px"><img src="{{ $user->avatar }}" height="200px"></td>
+                                <td rowspan="5" width="100px"><img src="https://1e1c-2402-9d80-283-8be4-c10f-d952-a55a-6b1c.ngrok-free.app{{ $user->avatar }}" height="200px"></td>
                             </tr>
                             <tr>
                                 <td class="active text-right">Chinese Name</td>
