@@ -26,6 +26,7 @@ class CreateUsersTable extends Migration
             $table->string('listening_point');
             $table->string('reading_point');
             $table->string('writting_point');
+            $table->string('status');
             $table->rememberToken();
             $table->timestamps();
         });

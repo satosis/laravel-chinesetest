@@ -86,7 +86,7 @@
 
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        HSK四级(Aug 21, 2022)中文水平考试
+                        HSK四级({{ $user->date }})中文水平考试
                     </div>
                     <!-- Table -->
                     <table class="table table-bordered">
@@ -131,7 +131,7 @@
                 <div class="panel panel-default">
                     <!-- Default panel contents -->
                     <div class="panel-body">
-                        HSKK（中级）(Aug 21, 2022)中文水平考试
+                        HSKK（中级）({{ $user->date }})中文水平考试
                     </div>
                     <!-- Table -->
                     <table class="table table-bordered">
@@ -154,7 +154,7 @@
                                     {{ $user->speaking_point }}
                                 </td>
                                 <td align="center">{{ $user->speaking_point }}</td>
-                                <td align="center">不合格</td>
+                                <td align="center">{{ $user->status }}</td>
                             </tr>
                         </tbody>
                     </table>
