@@ -30,8 +30,7 @@
         "DB_PORT": "3306",
         "DB_DATABASE": "laravel",
         "DB_USERNAME": "hbdgtgz14wesnejitv2x",
-        "DB_PASSWORD": "pscale_pw_koq4NzkPYAMVfxFDWOY2jn49eOq8E1PwKLL8CmW4g0z",
-        "MYSQL_ATTR_SSL_CA": "/etc/ssl/certs/ca-certificates.crt"
+        "DB_PASSWORD": "pscale_pw_koq4NzkPYAMVfxFDWOY2jn49eOq8E1PwKLL8CmW4g0z"
 
     },
     "buildCommand": "php artisan optimize"
