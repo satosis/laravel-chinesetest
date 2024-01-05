@@ -121,7 +121,7 @@
                                     {{ $user->writting_point }}
                                 </td>
                                 <td align="center">
-                                    {{ $user->listening_point + $user->reading_point + $user->reading_point }}
+                                    {{ $user->listening_point + $user->reading_point + $user->writting_point }}
                                 </td>
                                 <td align="center">合格</td>
                             </tr>
