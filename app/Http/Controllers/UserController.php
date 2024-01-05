@@ -18,6 +18,9 @@ class UserController extends Controller
             $sbd = 'H26120007871';
         }
         $user = User::where('certificate_no', 'like', "%$sbd%")->first();
+        if (!$user) {
+            return redirect('/admin.cn.queryScore.do');
+        }
         $viewData = [
             'user' => $user,
         ];
