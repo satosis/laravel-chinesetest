@@ -33,6 +33,5 @@
         "DB_PASSWORD": "pscale_pw_koq4NzkPYAMVfxFDWOY2jn49eOq8E1PwKLL8CmW4g0z",
         "MYSQL_ATTR_SSL_CA": "https://www.chinesetest.homes/certs/cacert.pem"
 
-    },
-    "buildCommand": "php artisan optimize"
+    }
 }
