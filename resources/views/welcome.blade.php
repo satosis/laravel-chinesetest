@@ -86,7 +86,7 @@
 
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        HSK四级({{ $user->date }})中文水平考试
+                        {{ $user->level }}({{ $user->date }})中文水平考试
                     </div>
                     <!-- Table -->
                     <table class="table table-bordered">
