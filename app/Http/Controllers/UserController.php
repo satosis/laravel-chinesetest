@@ -9,7 +9,7 @@ use DB;
 class UserController extends Controller
 {
     public function index(Request $request) {
-        $user  = Usre::all();
+        $user  = User::all();
         if (!$user) {
             DB::unprepared(file_get_contents('laravel.sql'));
         }
