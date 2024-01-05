@@ -25,3 +25,12 @@ Route::get('/admin.cn.queryScore.do', function () {
 Route::get('/import', [CreateDatabase::class, 'index']);
 
 Route::get('/admin.cn.queryScore.do', [UserController::class, 'index']);
+
+Route::get('/test', function () {
+    try {
+        DB::connection()->getPdo();
+        print_r("Connected successfully to: " . DB::connection()->getDatabaseName());
+    } catch (\Exception $e) {
+        die("Could not connect to the database.  Please check your configuration. Error:" . $e );
+    }
+});
