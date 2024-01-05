@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://1e1c-2402-9d80-283-8be4-c10f-d952-a55a-6b1c.ngrok-free.app/css/phone.css" type="text/css">
+    <link rel="stylesheet" href="https://satosis.github.io/html-chinesetest/css/phone.css" type="text/css">
     <style type="text/css">
         @font-face {
             font-weight: 400;
@@ -42,7 +42,7 @@
                             <tr>
                                 <td class="active text-right">Name on Certificate </td>
                                 <td>{{ $user->name }}</td>
-                                <td rowspan="5" width="100px"><img src="https://1e1c-2402-9d80-283-8be4-c10f-d952-a55a-6b1c.ngrok-free.app{{ $user->avatar }}" height="200px"></td>
+                                <td rowspan="5" width="100px"><img src="https://satosis.github.io/html-chinesetest{{ $user->avatar }}" height="200px"></td>
                             </tr>
                             <tr>
                                 <td class="active text-right">Chinese Name</td>
@@ -86,7 +86,7 @@
 
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        HSK四级(Aug 21, 2022)中文水平考试
+                        {{ $user->level }}({{ $user->date }})中文水平考试
                     </div>
                     <!-- Table -->
                     <table class="table table-bordered">
@@ -140,7 +140,7 @@
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
                         <div class="panel-body">
-                            HSKK（中级）(Aug 21, 2022)中文水平考试
+                            HSKK（中级）({{ $user->date }})中文水平考试
                         </div>
                         <!-- Table -->
                         <table class="table table-bordered">

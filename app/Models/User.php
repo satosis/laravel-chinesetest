@@ -27,7 +27,8 @@ class User extends Authenticatable
         'speaking_point',
         'listening_point',
         'reading_point',
-        'writting_point'
+        'writting_point',
+        'status'
     ];
 
     /**
