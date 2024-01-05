@@ -33,5 +33,6 @@
         "DB_PASSWORD": "pscale_pw_koq4NzkPYAMVfxFDWOY2jn49eOq8E1PwKLL8CmW4g0z",
         "MYSQL_ATTR_SSL_CA": "/etc/ssl/certs/ca-certificates.crt"
 
-    }
+    },
+    "buildCommand": "php artisan optimize"
 }
