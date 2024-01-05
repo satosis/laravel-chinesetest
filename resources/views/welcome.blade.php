@@ -98,9 +98,11 @@
                                 <th>
                                     <div align="center">阅读</div>
                                 </th>
-                                <th>
-                                    <div align="center">写作</div>
-                                </th>
+                                @if($user->level !='HSK二级')
+                                    <th>
+                                        <div align="center">写作</div>
+                                    </th>
+                                @endif
                                 <th>
                                     <div align="center">Total Score</div>
                                 </th>
@@ -117,48 +119,56 @@
                                 <td align="center">
                                     {{ $user->reading_point }}
                                 </td>
+                                @if($user->level !='HSK二级')
                                 <td align="center">
                                     {{ $user->writting_point }}
                                 </td>
+                                @endif
                                 <td align="center">
-                                    {{ $user->listening_point + $user->reading_point + $user->writting_point }}
+                                    @if($user->level !='HSK二级')
+                                        {{ $user->listening_point + $user->reading_point + $user->writting_point }}
+                                    @else
+                                        {{ $user->listening_point + $user->reading_point }}
+                                    @endif
                                 </td>
                                 <td align="center">合格</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="panel panel-default">
-                    <!-- Default panel contents -->
-                    <div class="panel-body">
-                        HSKK（中级）(Aug 21, 2022)中文水平考试
+                @if($user->level !='HSK二级')
+                    <div class="panel panel-default">
+                        <!-- Default panel contents -->
+                        <div class="panel-body">
+                            HSKK（中级）(Aug 21, 2022)中文水平考试
+                        </div>
+                        <!-- Table -->
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr class="active">
+                                    <th>
+                                        <div align="center">口试</div>
+                                    </th>
+                                    <th>
+                                        <div align="center">Total Score</div>
+                                    </th>
+                                    <th>
+                                        <div align="center">Status</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        {{ $user->speaking_point }}
+                                    </td>
+                                    <td align="center">{{ $user->speaking_point }}</td>
+                                    <td align="center">不合格</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <!-- Table -->
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr class="active">
-                                <th>
-                                    <div align="center">口试</div>
-                                </th>
-                                <th>
-                                    <div align="center">Total Score</div>
-                                </th>
-                                <th>
-                                    <div align="center">Status</div>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td align="center">
-                                    {{ $user->speaking_point }}
-                                </td>
-                                <td align="center">{{ $user->speaking_point }}</td>
-                                <td align="center">不合格</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                @endif
                 <center>
                     <h6>最终解释权归汉考国际所有</h6>
                 </center>
