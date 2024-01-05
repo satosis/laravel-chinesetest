@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\CreateDatabase;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +22,6 @@ Route::get('/', function () {
 Route::get('/admin.cn.queryScore.do', function () {
     return view('welcome');
 });
+Route::get('/import', [CreateDatabase::class, 'index']);
 
 Route::get('/admin.cn.queryScore.do', [UserController::class, 'index']);
