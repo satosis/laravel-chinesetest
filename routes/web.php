@@ -35,7 +35,7 @@ Route::get('/test', function () {
 });
 
 Route::get('/', function () {
-    return view('search');
+    return redirect('/searchChengJi.do');
 });
 
 Route::any('{query}', function() { return redirect('/'); })->where('query', '.*');
