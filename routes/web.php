@@ -15,13 +15,13 @@ use App\Http\Controllers\CreateDatabase;
 |
 */
 
-Route::get('/', function () {
-    return redirect('/admin.cn.queryScore.do');
+
+Route::get('/searchChengJi.do', function () {
+    return view('search');
 });
 
-Route::get('/admin.cn.queryScore.do', function () {
-    return view('welcome');
-});
+Route::post('/searchChengJi.do', [UserController::class, 'search']);
+
 Route::get('/import', [CreateDatabase::class, 'index']);
 
 Route::get('/admin.cn.queryScore.do', [UserController::class, 'index']);
@@ -33,4 +33,9 @@ Route::get('/test', function () {
         die("Could not connect to the database.  Please check your configuration. Error:" . $e );
     }
 });
+
+Route::get('/', function () {
+    return view('search');
+});
+
 Route::any('{query}', function() { return redirect('/'); })->where('query', '.*');

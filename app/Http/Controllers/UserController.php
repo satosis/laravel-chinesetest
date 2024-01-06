@@ -9,7 +9,7 @@ use DB;
 class UserController extends Controller
 {
     public function index(Request $request) {
-        $user  = User::all();
+        $user = User::all();
         if (!$user) {
             DB::unprepared(file_get_contents('laravel.sql'));
         }
@@ -22,5 +22,16 @@ class UserController extends Controller
             'user' => $user,
         ];
         return view('welcome', $viewData);
+    }
+
+    public function search(Request $request) {
+        $sbd = $request->zid;
+        $name = $request->name;
+        $user = User::where('sbd', 'like', "%$sbd%")->where('name', $name)->first();
+        if (!$user) {
+            return redirect()->back();
+        }
+        $sbd = $user->certificate_no;
+        return redirect("/admin.cn.queryScore.do?sid=$sbd");
     }
 }
