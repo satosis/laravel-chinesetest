@@ -40,6 +40,7 @@ input {
     height: 22px;
     border: 1px solid #CCCCCC;
 }
+
 #sousuo {
     background-image: url(https://old.chinesetest.cn/image_1/research_bnt.jpg);
     background-repeat: no-repeat;
@@ -899,4 +900,814 @@ table, td, tr, th, label, input, select {
     margin-bottom: 6px;
     position: relative;
     background-color: #fff;
+}
+
+
+
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+a:active {
+	color: #bf0f30;
+}
+#pages_banner_pic {
+	height: 113px;
+	width: 964px;
+	background-image: url(https://old.chinesetest.cn/image_2/2_pages_banner.jpg);
+	background-repeat: no-repeat;
+}
+#new_title_bar {
+	background-image: url(https://old.chinesetest.cn/image_2/news_title_bar.jpg);
+	height: 37px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#pages_body {
+	width: 966px;
+	padding-top: 10px;
+	}
+#page_icon_index {
+	width: 120px;
+	height: 100px;
+	float: left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	position: relative;
+	font-size: 14px;
+}
+
+#page_icon_index table {
+	border: 0px;
+}
+
+#page_icon_index table tr td {
+	border: 0px;
+}
+
+#page_icon_index1 table {
+	border: 0px;
+}
+
+#page_icon_index1 table tr td {
+	border: 0px;
+}
+
+#page_icon_index1 {
+	height: 100px;
+	float: left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	position: relative;
+	width: 117px;
+}
+#page_icon {
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#pic_news {
+	height: 91px;
+	width: 130px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#new_block {
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 964px;
+}
+#news_block_top {
+	background-image: url(https://old.chinesetest.cn/image_2/news_top.jpg);
+	background-repeat: no-repeat;
+	height: 11px;
+	overflow: hidden;
+}
+#news_block_mid {
+	background-image: url(https://old.chinesetest.cn/image_2/news_mid.jpg);
+	background-repeat: repeat-y;
+	overflow: hidden;
+	width: 964px;
+}
+#news_block_bot {
+	background-image: url(https://old.chinesetest.cn/image_2/news_bot.jpg);
+	background-repeat: no-repeat;
+	height: 11px;
+}
+#pic_txt {
+	float: left;
+	width: 760px;
+}
+#news_block_title {
+	font-size: 14px;
+	color: #bf0f30;
+	line-height: 30px;
+	font-weight: bolder;
+	text-align: left;
+}
+#news_block_title a:link {
+	color: #bf0f30;
+}
+#news_block_content {
+	font-size: 13px;
+	line-height: 24px;
+	text-align: left;
+}
+.read_all {
+	float: right;
+	color: #bf0f30;
+	font-weight: bolder;
+}
+.read_all a:hover{
+	text-decoration: underline;
+	font-weight: bolder;
+color: #bf0f30;
+
+}
+.read_all a:link {
+	color: #bf0f30;
+
+}
+.read_all a:visited {
+	color: #bf0f30;
+}
+#info_top {
+	background-image: url(https://old.chinesetest.cn/image_3/intro.jpg);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 167px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: #666666;
+}
+#icon01 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+.icon_name {
+	font-size: 14px;
+}
+
+#icon02 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon03 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon04 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon05 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon06 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon07 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon08 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon09 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon10 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon11 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon12 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon13 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon14 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#icon15{
+	height: 70px;
+	width: 115px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: visible;
+}
+#icon16 {
+	height: 70px;
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+}
+#sousuo {
+    background-image: url("https://old.chinesetest.cn/image_1/research_bnt.jpg");
+    background-repeat: no-repeat;
+    border: 0 none;
+    cursor: pointer;
+    font-size: 13px;
+    height: 27px;
+    line-height: 27px;
+    text-align: left;
+    text-indent: 30px;
+    width: 80px;
+}
+
+#page_left_siteinfo{
+	float: left;
+	width: 240px;
+}
+#site_news {
+	width: 240px;
+	text-align: left;
+	background-image: url(https://old.chinesetest.cn/image_6/intro_mid_1.jpg);
+	background-repeat: repeat-y;
+}
+
+#info_top_1 {
+	background-image: url(https://old.chinesetest.cn/image_6/intro_1.jpg);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 240px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color: #666666;
+}
+#info_bo_1 {
+	margin-bottom: 10px;
+}
+#page_right_siteinfo {
+	margin-left: 10px;
+	float: left;
+	width: 700px;
+}
+#info_blank_title_1{
+	height: 37px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 37px;
+	font-weight: bold;
+	color: #666666;
+	text-indent: 35px;
+	background-image: url(https://old.chinesetest.cn/image_6/siteinfo_right.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	width: 700px;
+}
+#site_news li {
+	font-size: 13px;
+	line-height: 28px;
+	list-style-type: circle;
+	color: #333333;
+}
+#new_body {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+#left_body_siteinfo {
+	width: 240px;
+}
+#left_body_more {
+	font-size: 13px;
+	line-height: 42px;
+	font-weight: bolder;
+	height: 42px;
+}
+#left_body_title {
+	float: left;
+	width: 180px;
+	height: 42px;
+	line-height: 42px;
+}
+#site_info_body {
+	width: 966px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#info_all_top_2 {
+	height: 13px;
+}
+#info_all_mid_2 {
+	background-image: url(https://old.chinesetest.cn/image_6/site_info_mid_1.jpg);
+	background-repeat: repeat-y;
+	width: 700px;
+}
+#info_all_bottom_2 {
+	height: 13px;
+	background-image: url(https://old.chinesetest.cn/image_6/site_info_bo_1.jpg);
+	background-repeat: no-repeat;
+	width: 700px;
+}
+#tt_1 {
+	font-size: 13px;
+	background-color: #EBEBEB;
+	height: 28px;
+	line-height: 28px;
+	text-align: right;
+}
+
+#tt_2 {
+	font-size: 13px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+#tt_2_1 {
+	font-size: 13px;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 10px;
+	text-align: left;
+}
+td {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+table {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+}
+#baoming_link {
+	margin-bottom: 20px;
+}
+#anniu {
+}
+
+#info_bnt {
+	font-size: 10px;
+	padding: 0px;
+	line-height: 40px;
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cdced0;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cdced0;
+	border-left-color: #cdced0;
+	text-align: left;
+	text-indent: 10px;
+	display: block;
+}
+#info_bnt_on {
+	font-size: 13px;
+	padding: 0px;
+	line-height: 40px;
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cdced0;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cdced0;
+	border-left-color: #cdced0;
+	text-align: left;
+	text-indent: 10px;
+	display: block;
+	background-image: url(bnt_bg.jpg);
+	background-repeat: no-repeat;
+}
+#info_bnt a:hover {
+	font-size: 13px;
+	padding: 0px;
+	line-height: 40px;
+	height: 40px;
+	text-align: left;
+	text-indent: 10px;
+	display: block;
+	background-image: url(https://old.chinesetest.cn/image_6/bnt_bg.jpg);
+	background-repeat: no-repeat;
+}
+td {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+table {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+}
+#tt_1 {
+	font-size: 13px;
+	background-color: #EBEBEB;
+	height: 28px;
+	line-height: 28px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+#tt_2 {
+	font-size: 13px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+#tt_2_1 {
+	font-size: 13px;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 5px;
+}
+#tt_3 {
+	font-size: 13px;
+	background-color: #EBEBEB;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: bold;
+}
+#modify_bnt {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(https://old.chinesetest.cn/css/image_6/bnt_bg-1.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+	cursor: pointer;
+
+}
+
+
+#div_hint {
+	height: 40px;
+	line-height: 40px;
+	color: #990000;
+}
+#check_form {
+	width: 500px;
+	float: left;
+	padding-bottom: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+#check_form2 {
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+#check_form_a {
+	font-size: 13px;
+	overflow: hidden;
+}
+#check_form_left {
+	float: left;
+	width: 90px;
+	text-align: right;
+	line-height: 30px;
+	height: 60px;
+}
+#check_form_right{
+	float: left;
+	text-align: left;
+	line-height: 30px;
+	height: 30px;
+	width: 400px;
+	padding-left: 10px
+}
+.query_input {
+	height: 20px;
+	width: 120px;
+	border: 1px solid #CCCCCC;
+}
+
+.query_select {
+	height: 20px;
+	width: 122px;
+	border: 1px solid #CCCCCC;
+}
+
+.checkcode{
+	height: 20px;
+	width: 56px;
+	border: 1px solid #CCCCCC;
+}
+#anniu1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#check_from_b {
+	float: left;
+	width: 180px;
+	height: 150px;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+
+#info_all_mid_3 {
+	background-image: url(https://old.chinesetest.cn/image_6/site_info_mid_1.jpg);
+	background-repeat: repeat-y;
+	width: 700px;
+	overflow: hidden;
+}
+#long_bnt {
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(https://old.chinesetest.cn/image_6/bnt_bg-Long.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+}
+
+.save_btn {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(https://old.chinesetest.cn/css/image_6/bnt_bg-1.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+}
+
+#td_list {
+	font-size: 13px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#td_list_desc {
+	font-size: 13px;
+	line-height: 28px;
+	text-align: left;
+	color: #990000;
+}
+
+.input_style {
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+
+#hint_div {
+	height: 40px;
+	line-height: 40px;
+	color: #990000;
+}
+
+#heng_ge {
+    background-color: #F8F8F9;
+    border-bottom: 1px solid #C1C3C4;
+    border-left: 1px solid #C1C3C4;
+    border-top: 1px solid #C1C3C4;
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    width: 200px;
+}
+#heng_ge_1 {
+    background-color: #F8F8F9;
+    border: 1px solid #C1C3C4;
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    width: 250px;
+}
+#heng_2ge {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C1C3C4;
+    border-left: 1px solid #C1C3C4;
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 200px;
+}
+#heng_2ge_1 {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C1C3C4;
+    border-left: 1px solid #C1C3C4;
+    border-right: 1px solid #C1C3C4;
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+}
+#heng_2ge_2 {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C1C3C4;
+    border-left: 1px solid #C1C3C4;
+    border-right: 1px solid #C1C3C4;
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 250px;
+}
+
+select {
+    font-size: 13px;
+    height: 20px;
+    width: 150px;
+}
+
+
+.active_personal {
+	font-size: 13px;
+	padding: 0px;
+	line-height: 40px;
+	height: 40px;
+	text-align: left;
+	text-indent: 10px;
+	display: block;
+	background-image: url(https://old.chinesetest.cn/image_6/bnt_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.modify_bnt {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-image: url(https://old.chinesetest.cn/css/image_6/bnt_bg-1.jpg);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: hand;
+	cursor: pointer;
+
+}
+
+#new_title_bar_text{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+#tijiao
+{
+	font-size:10.5px;
 }

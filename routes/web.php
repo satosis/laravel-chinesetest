@@ -15,9 +15,13 @@ use App\Http\Controllers\CreateDatabase;
 |
 */
 
+Route::get('/index.do', function () {
+    return view('index');
+});
 
 Route::get('/searchChengJi.do', function () {
-    return view('search');
+    $user = null;
+    return view('search', compact('user'));
 });
 
 Route::post('/searchChengJi.do', [UserController::class, 'search']);
@@ -35,7 +39,7 @@ Route::get('/test', function () {
 });
 
 Route::get('/', function () {
-    return redirect('/searchChengJi.do');
+    return redirect('/index.do');
 });
 
 Route::any('{query}', function() { return redirect('/'); })->where('query', '.*');

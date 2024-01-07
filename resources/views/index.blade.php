@@ -234,7 +234,7 @@ function MM_initTimelines() { //v4.0
 		</div>
 		<div id="blank">
             <div id="log_info">
-                <a target='_black' href="/" style="text-decoration: underline;color:red;">New Version</a>&nbsp;&nbsp;
+                <a target='_black' href="/" style="text-decoration: underline;color:red;"><B>New Version</a>&nbsp;&nbsp;
                 <a href="/commonActions.do?method=login" style="text-decoration: underline;">Login</a>&nbsp;&nbsp;
                 <a href="/uregisterstart.do" style="text-decoration: underline;">New User</a>&nbsp;&nbsp;
             </div>
@@ -877,923 +877,661 @@ function queryZs() {
 <div>
 <div align="center" id="body">
 	<div id="content_1" >
-
-		<div align="center" id="body">
-			<div id="pages_body">
-
-
-
-
-<script type="text/JavaScript">
-	function MM_swapImgRestore() { //v3.0
-	  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-	}
-
-	function MM_preloadImages() { //v3.0
-	  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-	    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-	    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-	}
-
-	function MM_findObj(n, d) { //v4.01
-	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-	    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-	  if(!x && d.getElementById) x=d.getElementById(n); return x;
-	}
-
-	function MM_swapImage() { //v3.0
-	  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-	   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-	}
-</script>
-<div id="page_icon">
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon01">
-							<a href="/index.do" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','image_2/icon_index_1.jpg',1)">
-							<img src="https://old.chinesetest.cn/image_2/icon_index.jpg" name="Image1" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon02">
-							<img src="https://old.chinesetest.cn/image_2/icon_index_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/index.do" target="_parent" class="icon_name" onmouseover="MM_showHideLayers('icon01','','hide','icon02','','show')" onmouseout="MM_showHideLayers('icon01','','show','icon02','','hide')">Home</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon03">
-							<a href="/gospnews.do?lid=1&amp;id=1" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','image_2/icon_news_1.jpg',1)">
-							<img src="https://old.chinesetest.cn/image_2/icon_news.jpg" name="Image2" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon04">
-							<img src="https://old.chinesetest.cn/image_2/icon_news_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/gospnews.do?lid=1&amp;id=1" onmouseover="MM_showHideLayers('icon03','','hide','icon04','','show')" onmouseout="MM_showHideLayers('icon03','','show','icon04','','hide')">Announcement</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon05">
-							<a href="/gosign.do?id=1&amp;lid=0" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','image_2/icon_introduce_1.jpg',1)">
-								<img src="https://old.chinesetest.cn/image_2/icon_introduce.jpg" name="Image3" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon06">
-							<img src="https://old.chinesetest.cn/image_2/icon_introduce_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/gosign.do?id=1&amp;lid=0" onmouseover="MM_showHideLayers('icon05','','hide','icon06','','show')" onmouseout="MM_showHideLayers('icon05','','show','icon06','','hide')">About Test </a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon07">
-							<a href="/goliuchengtu.do" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','image_2/icon_apply_1.jpg',1)">
-								<img src="https://old.chinesetest.cn/image_2/icon_apply.jpg" name="Image4" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon08">
-							<img src="https://old.chinesetest.cn/image_2/icon_apply_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/goliuchengtu.do" onmouseover="MM_showHideLayers('icon07','','hide','icon08','','show')" onmouseout="MM_showHideLayers('icon07','','show','icon08','','hide')">Test Registration</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon09">
-							<a href="/goKdInfoOrPlan.do" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','image_2/icon_info_1.jpg',1)">
-								<img src="https://old.chinesetest.cn/image_2/icon_info.jpg" name="Image5" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon10">
-							<img src="https://old.chinesetest.cn/image_2/icon_info_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/goKdInfoOrPlan.do" onmouseover="MM_showHideLayers('icon09','','hide','icon10','','show')" onmouseout="MM_showHideLayers('icon09','','show','icon10','','hide')">Test Center</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon11">
-							<a href="https://www.hskmock.com/home/index" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','css/image_2/icon_test_new.jpg',1)">
-								<img src="https://old.chinesetest.cn/css/image_2/icon_test_new.jpg" name="Image6" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon12">
-							<img src="https://old.chinesetest.cn/css/image_2/icon_test_new.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="https://www.hskmock.com/home/index" onmouseover="MM_showHideLayers('icon11','','hide','icon12','','show')" onmouseout="MM_showHideLayers('icon11','','show','icon12','','hide')">Practice</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div id="page_icon_index">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon13">
-							<a href="/gotestlaw.do#" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','image_2/icon_rule_1.jpg',1)">
-								<img src="https://old.chinesetest.cn/image_2/icon_rule.jpg" name="Image7" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon14">
-							<img src="https://old.chinesetest.cn/image_2/icon_rule_1.jpg" width="117" height="70">
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/gotestlaw.do#" onmouseover="MM_showHideLayers('icon13','','hide','icon14','','show')" onmouseout="MM_showHideLayers('icon13','','show','icon14','','hide')">Test Regulation</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div id="page_icon_index1">
-		<table width="98%" border="0" cellpadding="0" cellspacing="0" height="100">
-			<tbody>
-				<tr>
-					<td height="70">
-						<div style="visibility: visible;" id="icon15">
-							<a href="/goaboutus.do" target="_parent" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','image_2/icon_about_1.jpg',1)">
-								<img src="https://old.chinesetest.cn/image_2/icon_about.jpg" name="Image8" width="117" height="70" border="0"></a>
-						</div>
-						<div style="visibility: hidden;" id="icon16">
-							<img src="https://old.chinesetest.cn/image_2/icon_about_1.jpg" width="117" height="70">
-						</div>
-					</td>
-
-				</tr>
-				<tr>
-					<td>
-						<div class="icon_name" align="center">
-							<a href="/goaboutus.do" onmouseover="MM_showHideLayers('icon15','','hide','icon16','','show')" onmouseout="MM_showHideLayers('icon15','','show','icon16','','hide')">About Us</a>
-						</div>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</div>
-				<div id="site_info_body">
-
-
-
-
-
-<div id="page_left_siteinfo">
-	<div id="left_body_siteinfo">
-		<div id="info_top_1">
-			<div id="left_body_title">
-				<img width="40" height="40" align="absmiddle" src="https://old.chinesetest.cn/image_3/Yellow_arrow.gif">
-				Score &amp; Certificate
+		<div id="content_right">
+			<div id="right_icon_top">
+				<img src="https://old.chinesetest.cn/image_1/right_icon_top.jpg">
 			</div>
-		</div>
-		<div id="info_bnt">
-			<a href="goquery.do?styleOpt=1&amp;style=current" class="">Score </a>
-		</div>
-		<div id="info_bnt">
-			<a href="gosearchzs.do?styleOpt=3&amp;style=current" class="">Certificate </a>
-		</div>
-		<div id="info_bo">
-			<img width="240" height="20" intro_bo.jpg"="" image_3="" src="https://old.chinesetest.cn/image_6/intro_bo_1.jpg">
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="/dwr/engine.js"></script>
-<script type="text/javascript" src="/dwr/util.js"></script>
-<script src="/js/share/jquery-latest.min.js"></script>
-<script src="/js/jquery.form.js"></script>
-<script type="text/javascript" src="/dwr/interface/getbt.js"></script>
-<script src="/js/validator-en.jss"></script>
-
-<script src="/js/ui.datepicker.birth.js"></script>
-<script src="/js/ui.datepicker-zh-CN.js"></script>
-<script src="/js/Snryang.js"></script>
-<link rel="stylesheet" href="/css/flora.datepicker.css" type="text/css" media="screen" title="Flora (Default)">
-
-<script type="text/javascript">
-$(document).ready(function () {
-	locateMouse();
-	$("input[needValidate='true']").blur(function () {
-		if (requireField(this)) {//首先客户端验证
-			$("#" + this.id + "_img").html("<img src='image/yanzheng/accept.gif' />");
-			$("#" + this.id + "_error").html("");
-		}
-	});
-	$("#checkcode").blur(function () {
-		if (validateone(this)) {
-			var A = Math.random();
-			$("#jsonForm").ajaxSubmit({
-						dataType:"json",
-						url:"/validatorAjax.do?name=" + $(this).attr("value") + "&valid=Yz&time=" + A,
-						success:processJson});
-		}
-	});
-	var year = new Date().getYear();
-	if (year < 1900) {
-		year += 1900;
-	}
-	var yearFrom = year - 90;
-	var yearTo = year + 10;
-	$("#your_dateformat").datepicker({yearRange:yearFrom + ":" + yearTo});
-
-	$("#ksxm").change(function () {
-		var ksxmid = $("#ksxm").val();
-		var options = {
-						target:"#kskm",
-						url:"/selectkskm.do?flag=chengji&ksxmId=" + ksxmid,
-						type:"post"
-					};
-		$("#check").ajaxSubmit(options);
-	});
-
-	fillUnit();
-	$("#unit").change(function () {
-		var unit = $("#unit").val();
-		$("#unit_error").empty();
-		if (unit == 0) {
-			$("#unit_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-		} else {
-			$("#unit_error").append("<img src='image/yanzheng/accept.gif' />");
-		}
-	});
-	$("#ksxm").change(function () {
-		var unit = $("#ksxm").val();
-		$("#ksxm_error").empty();
-		if (unit == 0) {
-			$("#ksxm_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-		} else {
-			$("#ksxm_error").append("<img src='image/yanzheng/accept.gif' />");
-		}
-	});
-	$("#kskm").change(function () {
-		var unit = $("#kskm").val();
-		$("#kskm_error").empty();
-		if (unit == 0) {
-			$("#kskm_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-		} else {
-			$("#kskm_error").append("<img src='image/yanzheng/accept.gif' />");
-		}
-	});
-
-	var fiveCode = "";
-	if (fiveCode != null && fiveCode == 1) {//修改5位码查询时form的样式
-		$("#form").css("float", "right");
-	}
-
-	reloadImage();
-});
-
-
-//取得所有考点
-function fillUnit() {
-	$.ajax({
-			url:"/getUnitNames.do",
-			type:"post",
-			dataType:"html",
-			error:function (html) {},
-			success:function (html) {
-				$("#unit").append(html);
-			}
-		});
-}
-
-function processJson(data) {
-    // 'data' is the json object returned from the server
-	if (data.message == "OK") {
-    	// 正常可以使用
-		nameflag = true;
-		$("#checkcode_img").html("<img src='image/yanzheng/accept.gif' />");
-		$("#checkcode_error").html("");
-	} else {
-		if (data.message == "ZhanYong") {// 被占用不可以使用
-			nameflag = false;
-			$("#checkcode_img").html("<img src='image/yanzheng/exclamation.gif' />");
-			$("#checkcode_error").html("The validation code is wrong!").attr("style", "color:red;");
-		} else {
-    		// 有异常,不可以使用
-			$("#checkcode_img").html("<img src='image/yanzheng/exclamation.gif' />");
-			$("#checkcode_error").html("The validation code is wrong!").attr("style", "color:red;");
-			nameflag = false;
-		}
-	}
-}
-
-
-function checkXmKm() {
-   //判断三个下拉选择,因为原来的判断方式没有判断select的.
-	var unit = $("#unit").val();
-	$("#unit_error").empty();
-	if (unit == null || unit == 0) {
-		$("#unit_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-	}
-	var ksxm = $("#ksxm").val();
-	var kskm = $("#kskm").val();
-	$("#ksxm_error").empty();
-	$("#kskm_error").empty();
-	if (kskm == null || kskm == 0) {
-		if (ksxm == null || ksxm == 0) {
-			$("#ksxm_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-			$("#kskm_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-		} else {
-			$("#kskm_error").append("<img src='image/yanzheng/exclamation.gif' /><font color='red'>不能为空!</font>");
-		}
-		return false;
-	}
-	return true;
-}
-
-function checkFiveCode() {
-	var paramLen = $("#your_zhunkz").val().length;
-	if (paramLen != 5) {
-		$("#your_zhunkz_img").html("<img src='image/yanzheng/exclamation.gif' />");
-		$("#your_zhunkz_error").html("<font color='red'>请输入准考证上5位考生序号!</font>");
-		return false;
-	} else {
-		$("#your_zhunkz_img").html("<img src='image/yanzheng/accept.gif' />");
-		$("#your_zhunkz_error").html("");
-		return true;
-	}
-}
-
-function gosub() {
-	var fiveCode = "";
-	if (fiveCode != null && fiveCode == 1) {
-		//5位码查询:先显示错误
-		checkFiveCode();
-		validate();
-		checkXmKm();
-		if (checkFiveCode() && validate() && checkXmKm()) {
-			$("#form").submit();
-		}
-	} else {
-		if (validate()) {
-		   	//完整准考证查询
-			$("#form").submit();
-		}
-	}
-}
-
-function reloadImage() {
-	var A=Math.random();
-	$.ajax({
-		type : "GET",
-		dataType : "text",
-		url : "./servlet/Image?A="+A,
-		success : function(datas) {
-			$('#checkimage').attr('src', datas);
-		},
-		error : function() {
-		}
-	});
-    nameflag=false;
-	$('#checkcode').blur();
-
-}
-
-
-var mouseX = 0;
-var mouseY = 0;
-function locateMouse() {
-	$().mousemove(function (e) {
-		mouseX = e.pageX;
-		mouseY = e.pageY;
-	});
-}
-
-//查看准考证规则
-function goguize() {
-	$("#contentDiv").empty();
-	var A = Math.random();
-	var options = {
-					target:"#contentDiv",
-					url:"/guize.jsp?time=" + A,
-					type:"get"
-				};
-	$("#find").ajaxSubmit(options);
-	$("#contentDiv").css("visibility", "visible");
-	$("#contentDiv").css("top", mouseY - 100 + "px");
-	$("#contentDiv").css("left", mouseX - 485 + "px");
-}
-
-
-//关闭准考证规则
-function closeZKZHint(t) {
-	$(t).css("visibility", "hidden");
-}
-
-
-
-</script>
-
-
-<div id="page_right_siteinfo">
-	<form name="queryCjForm" id="form" method="post" action="/searchChengJi.do">
-	@csrf
-		<div id="info_all_siteinfo">
-			<div id="info_blank_title_1">
-				@if ($user) Test results found @else Score @endif
-			</div>
-			<div id="info_all_top_2">
-				<img width="700" height="13" src="https://old.chinesetest.cn/image_6/site_info_top_1.jpg">
-			</div>
-			@if ($user)
-			<div id="info_all_mid_2">
-			<table width="95%" cellspacing="0" cellpadding="0" border="0">
-			<tbody>
-					<tr>
-						<td colspan="2">
-							<div id="tt_2_1">
-								Information of test taker
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td width="200">
-							<div id="tt_1">
-								Name on Certificate
-							</div>
-						</td>
-						<td>
-							<div id="tt_2_1">
-								{{ $user->name }}
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td width="200">
-							<div id="tt_1">
-								Chinese Name
-							</div>
-						</td>
-						<td>
-							<div id="tt_2_1">
-
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td width="200">
-							<div id="tt_1">
-								Nationality
-							</div>
-						</td>
-						<td>
-							<div id="tt_2_1">
-
-									越南
-
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td width="200">
-							<div id="tt_1">
-								Gender
-							</div>
-						</td>
-						<td>
-							<div id="tt_2_1">
-							{{ $user->sex }}
-							</div>
-						</td>
-					</tr>
-					<tr style="height: 2px; line-height: 2px;">
-						<td colspan="2">
-							<div id="tt_2_1" style="height: 3px; line-height: 3px">
-								&nbsp;
-							</div>
-						</td>
-					</tr>
-
-						@foreach(explode(' ',$user->sbd) as $sbd)
-							<tr>
-								<td width="200">
-									<div id="tt_1">
-										Ticket No.
-									</div>
-								</td>
-								<td>
-									<div id="tt_2_1">
-									{{ $sbd }}
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td width="200">
-									<div id="tt_1">
-
-
-									      Test Subjects
-
-									</div>
-								</td>
-								<td>
-									<div id="tt_2_1">
-
-
-
-
-									{{ $user->level }}
-
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td width="200">
-									<div id="tt_1">
-										Number
-									</div>
-								</td>
-								<td>
-									<div id="tt_2_1">
-									{{ $user->certificate_no }}
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td width="200">
-									<div id="tt_1">
-										Test Time
-									</div>
-								</td>
-								<td>
-									<div id="tt_2_1">
-										{{ $user->date }}
-									</div>
-								</td>
-							</tr>
-					@endforeach
-				</tbody>
-			</table><br>
-
-			<table width="95%" cellspacing="0" cellpadding="0" border="0">
-				<tbody>
-
-
-							<tr>
-								<td colspan="5">
-									<div id="tt_2_1">
-
-
-
-									{{ $user->level }}
-
-										({{ $user->date }})汉语水平考试
-
-									</div>
-								</td>
-							</tr>
-
-
-									<tr>
-
-											<td>
-												<div id="tt_3">听力</div>
-											</td>
-
-											<td>
-												<div id="tt_3">阅读</div>
-											</td>
-
-											@if($user->level !='HSK二级')
-											<td>
-												<div id="tt_3">写作</div>
-											</td>
-											@endif
-
-										<td>
-											<div id="tt_3" style="border-right: 1px solid #ddd;">
-
-
-													Total Score
-
-											</div>
-										</td>
-
-
-												<td>
-													<div id="tt_3" style="border-right: 1px solid #ddd;">Status</div>
-												</td>
-
-
-
-									</tr>
-									<tr>
-
-											<td>
-												<div id="td_list">   {{ $user->listening_point }}</div>
-											</td>
-
-											<td>
-												<div id="td_list"> {{ $user->reading_point }}</div>
-											</td>
-
-											@if($user->level !='HSK二级')
-											<td>
-												<div id="td_list"> {{ $user->writting_point }}</div>
-											</td>
-											@endif
-										<td>
-											<div id="td_list" style="border-right: 1px solid #ddd;">
-
-
-
-											@if($user->level !='HSK二级')
-												{{ $user->listening_point + $user->reading_point + $user->writting_point }}
-											@else
-												{{ $user->listening_point + $user->reading_point }}
-											@endif
-
-											</div>
-										</td>
-
-
-												<td>
-													<div id="td_list" style="border-right: 1px solid #ddd;">合格</div>
-												</td>
-
-
-
-									</tr>
-
-
-
-
-
-									@if($user->level !='HSK二级')
-							<tr>
-								<td colspan="3">
-									<div id="tt_2_1">
-
-
-
-											HSKK（中级）
-
-										({{ $user->date }})汉语水平考试
-
-									</div>
-								</td>
-							</tr>
-
-
-									<tr>
-
-											<td>
-												<div id="tt_3">口试</div>
-											</td>
-
-										<td>
-											<div id="tt_3" style="border-right: 1px solid #ddd;">
-
-
-													Total Score
-
-											</div>
-										</td>
-
-
-												<td>
-													<div id="tt_3" style="border-right: 1px solid #ddd;">Status</div>
-												</td>
-
-
-
-									</tr>
-									<tr>
-
-											<td>
-												<div id="td_list"> {{ $user->speaking_point }}</div>
-											</td>
-
-										<td>
-											<div id="td_list" style="border-right: 1px solid #ddd;">
-
-
-
-											{{ $user->speaking_point }}
-
-											</div>
-										</td>
-
-
-												<td>
-													<div id="td_list" style="border-right: 1px solid #ddd;">{{ $user->status }}</div>
-												</td>
-
-
-
-									</tr>
-
-@endif
-
-
-
-
-				</tbody>
-			</table>
-
-			<br>
-		 <!-- c:if test="false"  -->
-
-					<input type="hidden" id="zsid" value="15592128">
-
-			<div id="info_all_bottom_2"></div>
-		</div>
-			@else
-			<div id="info_all_mid_3">
-
-					<div id="check_form">
-
-				<div id="hint_div">
-				@if(session()->get('validate'))
-
-							{{session()->get('validate')}}
-
-
-							@endif
-
-
-				</div>
-				<div id="check_form_a">
-
-					<div id="check_form_left">
-
-
-							Ticket No.
-
+			<div id="right_icon_mid">
+				<div id="icon">
+
+				<div style="visibility: visible;" id="icon_Layer1">
+						<a target="_black" href="https://www.hskmock.com/home/index"
+							onMouseOut="MM_swapImgRestore()"
+							onMouseOver="MM_swapImage('Image24','','css/image_2/icon_test_new.jpg',1)">
+							<img src="https://old.chinesetest.cn/css/image_2/icon_test_new.jpg" name="Image24" width="100"
+						      height="58" border="0">
+						</a>
 					</div>
-					<div id="check_form_right">
+					<div style="visibility: hidden;" id="icon_Layer2">
+						<img src="https://old.chinesetest.cn/css/image_2/icon_test_new.jpg" width="100" height="58">
+					</div>
+					<div id="icon_zi">
+						<a target="_black" href="https://www.hskmock.com/home/index" style="margin-left:11px;"
+							onmouseover="MM_showHideLayers('icon_Layer1','','hide','icon_Layer2','','show')"
+							onmouseout="MM_showHideLayers('icon_Layer1','','show','icon_Layer2','','hide')">Practice
+						</a>
+					</div>
+				</div>
+				<div id="icon">
+					<div style="visibility: visible;" id="icon_Layer3">
+						<a href="/godownload.do"
+							onMouseOut="MM_swapImgRestore()"
+							onMouseOver="MM_swapImage('Image25','','image_1/ziyuanzhongxin_1.jpg',1)">
+							<img src="https://old.chinesetest.cn/image_1/ziyuanzhongxin.jpg" name="Image25" width="80"
+								height="60" border="0">
+						</a>
+					</div>
+					<div style="visibility: hidden;" id="icon_Layer4">
+						<img src="https://old.chinesetest.cn/image_1/ziyuanzhongxin_1.jpg" width="80" height="60">
+					</div>
+					<div id="icon_zi">
+						<a href="/godownload.do"
+							onmouseover="MM_showHideLayers('icon_Layer1','','show','icon_Layer2','','hide','icon_Layer3','','hide','icon_Layer4','','show')"
+							onmouseout="MM_showHideLayers('icon_Layer1','','show','icon_Layer2','','hide','icon_Layer3','','show','icon_Layer4','','hide')">Download
+						</a>
+					</div>
+				</div>
+
+				<div id="icon">
+
+					<div style="visibility: visible;" id="icon_OPIc1">
+						<a href="/opic.do?lan="
+							onMouseOut="MM_swapImgRestore()"
+							onMouseOver="MM_swapImage('Image24','','image_1/monikaoshi_icon_1.jpg',1)">
+							<img src="https://old.chinesetest.cn/image_1/icon_opic.jpg" name="Image24" width="80"
+								height="68" border="0">
+						</a>
+					</div>
+					<div style="visibility: hidden;" id="icon_OPIc2">
+						<img src="https://old.chinesetest.cn/image_1/icon_opic.jpg" width="80" height="68">
+					</div>
+					<div id="icon_zi">
+						<a href="/opic.do?lan="
+							onmouseover="MM_showHideLayers('icon_OPIc1','','hide','icon_OPIc2','','show')"
+							onmouseout="MM_showHideLayers('icon_OPIc1','','show','icon_OPIc2','','hide')">Oral Test
+						</a>
+					</div>
+				</div>
+
+				<div id="icon">
+
+					<div style="visibility: visible;" id="icon_OCT1">
+						<a href="http://www.octtest.org/enindex.php" target="_black"
+							onMouseOut="MM_swapImgRestore()"
+							onMouseOver="MM_swapImage('Image24','','image_1/monikaoshi_icon_1.jpg',1)">
+							<img src="https://old.chinesetest.cn/image/wangqq/OCT_1.jpg" name="Image24" width="80"
+								 border="0">
+						</a>
+					</div>
+					<div style="visibility: hidden;" id="icon_OCT2">
+						<img src="https://old.chinesetest.cn/image/wangqq/OCT_1.jpg" width="80" >
+					</div>
+					<div id="icon_zi">
+						<a href="http://www.octtest.org/enindex.php" target="_black"
+							onmouseover="MM_showHideLayers('icon_OCT1','','sow','icon_OCT2','','hide')"
+							onmouseout="MM_showHideLayers('icon_OCT1','','show','icon_OCT2','','hide')">&nbsp;&nbsp;&nbsp;汉语口语考试
+						</a>
+					</div>
+				</div>
+
+				<!-- HSK口语mobile 对接好 上线后放开 -->
+
+
+				<div id="icon">
+					<div style="visibility: visible;" id="icon_Layer5">
+						<a href="/goquestion.do"
+							onMouseOut="MM_swapImgRestore()"
+							onMouseOver="MM_swapImage('Image26','','image_1/changjianwenti_1.jpg',1)">
+							<img src="https://old.chinesetest.cn/image_1/changjianwenti.jpg" name="Image26" width="80"
+								height="60">
+						</a>
+					</div>
+					<div style="visibility: hidden;" id="icon_Layer6">
+						<img src="https://old.chinesetest.cn/image_1/changjianwenti_1.jpg" width="80" height="60"">
+					</div>
+					<div id="icon_zi">
+						<a href="/goquestion.do"
+							onmouseover="MM_showHideLayers('icon_Layer1','','show','icon_Layer2','','hide','icon_Layer3','','show','icon_Layer4','','hide','icon_Layer5','','hide','icon_Layer6','','show')"
+							onmouseout="MM_showHideLayers('icon_Layer1','','show','icon_Layer2','','hide','icon_Layer3','','show','icon_Layer4','','hide','icon_Layer5','','show','icon_Layer6','','hide')">FAQ
+						</a>
+					</div>
+				</div>
+				</div>
+			<div id="right_icon_bottom">
+				<img src="https://old.chinesetest.cn/image_1/right_icon_bottom.jpg">
+			</div>
+		</div>
+		<div id="content_left">
+			<div id="left_1">
+				<div id="baoming_all">
+					<div id="baoming_top" align="left"></div>
+					<div id="baoming_boby">
+						<div id="baoming_title">
+							<table class="baoming_top_table">
+								<tbody>
+									<tr>
+										<td align="left">
+											<img src="https://old.chinesetest.cn/image_1/baoming_title.jpg">
+											<span id="baoming_title_text">
+												Registration
+											</span>
+										</td>
+
+										<td align="right" style="padding-right: 30px;">
+										<!-- 居家网考 -->
+
+
+											&nbsp;&nbsp;
+											<a href="/gonewcontent.do?id=46762287" target="_blank">
+											    <b><u>2023年考试日期</u></b>
+											</a>
+											&nbsp;&nbsp;
+											<a href="/gonewcontent.do?id=47787576" target="_blank">
+											    <img src="https://old.chinesetest.cn/image/new1.gif" /><font size="2" color="red"><b><u>2024年考试日期</u></b></font>
+											</a>
 
 
 
-							<input name="zid" value="{{ old('zid') }}" type="text" class="query_input" maxlength="40" needvalidate="true" size="20" style="line-height: 20px;" id="your_zhunkz">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="baoming_icon" style="margin-left: -15px;">
+							<div id="baoming_icon_top" align="center">
+								<a href="/kaoshibaomingIndex.do?source=hsk">
+									<img src="https://old.chinesetest.cn/image/wangqq/HSK.jpg" width="112" height="80">
+								</a>
+							</div>
+							<div id="baoming_icon_bottom" align="center">
+								<a href="/goKdInfoOrPlan.do?type=hsk">
+									Check Schedule
+								</a>
+							</div>
+						</div>
+						<div id="baoming_icon">
+							<div id="baoming_icon_top" align="center">
+								<a href="/kaoshibaomingIndex.do?source=hskk">
+									<img src="https://old.chinesetest.cn/image/wangqq/HSKK.jpg?A=1" width="112" height="80">
+								</a>
+							</div>
+							<div id="baoming_icon_bottom" align="center">
+								<a href="/goKdInfoOrPlan.do?type=hskk">
+									Check Schedule
+								</a>
+							</div>
+						</div>
+						<div id="baoming_icon">
+							<div id="baoming_icon_top" align="center">
+								<a href="/kaoshibaomingIndex.do?source=yct">
+									<img src="https://old.chinesetest.cn/image/wangqq/YCT.jpg?A=1" width="112" height="80">
+								</a>
+							</div>
+							<div id="baoming_icon_bottom" align="center">
+								<a href="/goKdInfoOrPlan.do?type=yct">
+									Check Schedule
+								</a>
+							</div>
+						</div>
+						<div id="baoming_icon">
+							<div id="baoming_icon_top" align="center">
+								<a href="/kaoshibaomingIndex.do?source=bct">
+									<img src="https://old.chinesetest.cn/image/wangqq/BCT.jpg?A=1" width="112" height="80">
+								</a>
+							</div>
+							<div id="baoming_icon_bottom" align="center">
+								<a href="/goKdInfoOrPlan.do?type=bct">
+									Check Schedule
+								</a>
+							</div>
+						</div>
+						<div id="baoming_icon">
+							<div id="baoming_icon_top" align="center">
+								<a href="/kaoshibaomingIndex.do?source=mct" target="_blank">
+									<img src="https://old.chinesetest.cn/image/wangqq/MCT.jpg?A=1" width="112" height="80">
+								</a>
+							</div>
+							<div id="baoming_icon_bottom" align="center">
+								<a href="/goKdInfoOrPlan.do?type=mct">
+									Check Schedule
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="denglu_layer1">
+					<div id="denglu_body">
+						<div id="denglu_1" style="visibility: visible;">
+							<form method="post" name="loginForm" id="loginForm">
+								<div id="denglu_biaoqian">
+									<div id="kaoshengdenglu_1">
+										<a href="javascript:void(0);">Test Taker
+										</a>
+									</div>
+									<div id="kaodiandenglu_1">
+										<a href="#"
+											onclick="MM_showHideLayers('denglu_1','','hide','denglu_2','','show')">Test Center
+										</a>
+									</div>
+								</div>
+								<div id="denglu_top" style="margin-top: -5px; margin-bottom: -5px;">
+									<img src="/image/wangqq/denglu_top.jpg" width="215" height="10">
+								</div>
+								<div id="denglu_mid1" style="background-image: url(https://old.chinesetest.cn/image/wangqq/denglu_mid.jpg?A=1);background-repeat: repeat-y;">
+									<table border="0" width="98%" class="contentTable" style="margin-top: 5px;">
+										<tr>
+											<td width="25%">
+												UserName
+											</td>
+											<td>
+												<input type="text" id="ks_denglu" name="useremail" class="useremail">
+											</td>
+										</tr>
+										<tr>
+											<td height="2px" colspan="2"></td>
+										</tr>
+										<tr>
+											<td>
+												Password
+											</td>
+											<td>
+												<input type="password" name="password" id="passwordKs"
+													class="useremail">
+											</td>
+										</tr>
+										<tr>
+											<td height="2px" colspan="2"></td>
+										</tr>
+										<tr >
+											<td width="20%">
+												Code
+											</td>
+											<td width="80%">
+												<input type="text" name="checkcodeKs" id="checkCodeKs" style="width: 65px; padding: 1px; font-size: 13px; border-radius: 3px;">
+												<img
+													src="https://satosis.github.io/html-chinesetest/image/captcha.png"
+													style="cursor: pointer; height: 22px; margin-bottom: -8px; * margin-bottom: -4px;" />
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div id="denglu_bottom" style="background-position: 0px -15px;height: 62px;padding-top: 9px;">
+									<div id="denglu_anniu" style="padding: 0px;">
+										<input id="modify_bnt" type="button"
+											value='Login'
+											onclick="javascript:personalLogin();">
+										&nbsp;&nbsp;
+										<input id="modify_bnt" type="button"
+											value="New User"
+											onclick="javascript:reg();">
 
 
-						*
+									</div>
+									<div id="quhui">
+										<a href="getpasswordm.do?id=00">Recover Password
+										</a>
 
+										<a id="bnt_cs" title="注册用户" class="thickbox" style=""/>
+										<a id="bnt_cs_yz" title="验证邮箱" class="thickbox" style=""/>
 
-							Please enter test admission ticket No.
-							<!-- <a href="javascript:goguize();"
-								style="display: inline; text-decoration: underline;">Admission Ticket No. </a>  -->
+									</div>
+							  </div>
+							</form>
+						</div>
 
-						<br>
-						<span id="your_zhunkz_img"></span>
-						<span id="your_zhunkz_error"></span>
+						<div id="denglu_2" style="visibility: hidden">
+							<form method="post" name="kdLoginForm" id="kdLoginForm" >
+								<div id="denglu_biaoqian">
+									<div id="kaodiandenglu_b">
+										<a href="#"
+											onclick="MM_showHideLayers('denglu_1','','show','denglu_2','','hide')">Test Taker
+										</a>
+									</div>
+									<div id="kaodiandenglu_a">
+										<a href="javascript:void(0);">Test Center
+										</a>
+									</div>
+								</div>
+								<div id="denglu_top" style="margin-top: -5px; margin-bottom: -5px;">
+									<img src="/image/wangqq/denglu_top.jpg" width="215" height="10">
+								</div>
+								<div id="denglu_mid2" >
+									<table border="0" width="98%" class="contentTable" style="margin-top: 5px;">
+										<tr>
+											<td width="20%">
+												UserName
+											</td>
+											<td>
+												<input type="text" id="j_username" name="j_username" class="useremail">
+											</td>
+										</tr>
+										<tr>
+											<td height="2px" colspan="2"></td>
+										</tr>
+										<tr>
+											<td>
+												Password
+											</td>
+											<td>
+												<input type="password" name="j_password" id="j_password" class="useremail">
+											</td>
+										</tr>
+										<tr>
+											<td height="2px" colspan="2"></td>
+										</tr>
+										<tr>
+											<td>
+												Code
+											</td>
+											<td>
+												<input type="text" name="j_captcha_response" id="j_captcha_response" style="width: 65px; padding: 1px; font-size: 13px; border-radius: 3px;">
+												<img onclick="javascript:reloadImageKD();" id="captcha"
+													src=""
+													style="cursor: pointer; height: 22px; margin-bottom: -8px; * margin-bottom: -4px;" />
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div id="denglu_bottom2" style="padding-top: 1px;">
+									<div id="denglu_anniu">
+										<div style="float: left;">
+											<input id="modify_bnt" type="button"
+												value='Login'
+												onclick="javascript:kdLogin();">
+											<a href="/updateAdminPassword.jsp?keepThis=true">
+												<span class="getPassFont">Recover Password</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
 
 					</div>
 				</div>
-				<!-- 姓名 -->
-				<div id="check_form_a">
-					<div id="check_form_left">
-						Name
+			</div>
+			<!-- 成绩查询和证书查询  http://www.octtest.org/enindex.php-->
+
+
+			<div id="left2" style="background-repeat: no-repeat; width: 825px; height: 116px; margin-left: -2px;">
+				<a href="/CLTC/" target="_black">
+				    <img id="player_left" src="https://old.chinesetest.cn/image_1/banner_left_3_1.png" width="292px" height="116px" />
+				</a>
+				<a href=" https://www.chinesespeechcontest.com/finals/" target="_black">
+					<img id="player_left" src="https://old.chinesetest.cn/image_1/quanmei.png" width="170px" height="116px" />
+				</a>
+				<a href="/yewusites.do?means=init&flag=giip" target="_black">
+					<img id="player_right" src="https://old.chinesetest.cn/image_1/GIIP.png" width="170px" height="116px" />
+				</a>
+				<a href="https://www.chineseteacher.org.cn" target="_black">
+				    <img id="player_left" src="https://old.chinesetest.cn/image_1/CTCTOL_2.jpg" width="170px" height="116px" />
+				</a>
+				</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("#player").mouseover(function() {
+						$(this).attr("src", "/image_1/banner_over.png");
+					}).mouseout(function() {
+						$(this).attr("src", "/image_1/banner_out.png");
+					});
+				});
+			</script>
+
+			<!-- Jiangzt10: hsk在线课程
+             <div id="left3" style="background-repeat: no-repeat; width: 825px; height: 116px; margin-left: -2px; ">
+				<a href="/applyCourse.do?means=tzCourse" target="_self">
+				    <img id="player_left" src="https://old.chinesetest.cn/image_1/banner_hyzx1.png" width="215px" height="116px" /></img>
+				</a>
+				<img id="player_right" src="https://old.chinesetest.cn/image_1/banner_jrkc.png" width="599px" height="116px" />
+				<div style="position: relative; text-align: right; margin-right: 22px; margin-top: -35px;">
+					<a href="/applyCourse.do?means=tzCourse" style="font-size:14px;color:gray;"><b>进入课程</b></a>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("#player").mouseover(function() {
+						$(this).attr("src", "/image_1/banner_over.png");
+					}).mouseout(function() {
+						$(this).attr("src", "/image_1/banner_out.png");
+					});
+				});
+			</script> -->
+
+
+
+
+			<div id="left3">
+				<form method="post" name="queryCjForm" id="queryCjForm">
+                    @csrf
+					<div id="left3_left">
+						<div id="layer_1" style="visibility: visible;">
+							<div id="chengji_biaoqian" style="margin-top: 5px;">
+								<div id="kaoshengchengjicx">
+									<a href="javascript:void(0);">Score
+									</a>
+								</div>
+								<div id="kaoshengchengjicxa">
+									<a href="javascript:void(0);"
+										onclick="MM_showHideLayers('layer_1','','hide','layer_2','','show')">Score Report
+									</a>
+								</div>
+
+							</div>
+							<div id="chengjichaxun_body_zh_CN" style="margin-top: -3px;">
+								<div id="chengji_1" style="align: left">
+									<table border="0">
+										<tr>
+											<td height="15px" colspan="5"></td>
+										</tr>
+										<tr>
+											<td class="td2">
+												Ticket No.
+											</td>
+											<td>
+												<input type="text" name="zid" id="your_zhunkz" maxlength="40"
+													class="querycol1">
+											</td>
+											<td width="5px">
+												&nbsp;
+											</td>
+											<td class="td1">
+												Name
+											</td>
+											<td>
+												<input name="name" type="text" id='your_mudi' maxlength="128"
+													class="querycol222" />
+											</td>
+										</tr>
+										<tr>
+											<td height="15px" colspan="5"></td>
+										</tr>
+										<tr>
+											<td class="td1">
+												Code
+											</td>
+											<td>
+												<input type="text" name="checkcode" maxlength="4"
+													id="checkcode" class="querycol1" />
+											</td>
+											<td width="5px">
+												&nbsp;
+											</td>
+											<td colspan="2">
+												<img src="https://satosis.github.io/html-chinesetest/image/captcha.png"
+													style="cursor: pointer; margin-top: 10px;vertical-align: text-bottom;"
+													onclick="javascript:reloadImage();">
+												&nbsp;&nbsp; &nbsp;&nbsp;
+												<input id="modify_bnt" type="submit"
+													value='Enquiry'>
+											</td>
+										</tr>
+									</table>
+								</div>
+							<br/>
+						</div>
 					</div>
-					<div id="check_form_right">
-						<input name="name" value="{{ old('name') }}" type="text" class="query_input" maxlength="128" size="20" needvalidate="true" id="your_mudi">
-						*&nbsp;
-						Please enter name on valid ID cards
-						<br>
-						<span id="your_mudi_img"></span><span id="your_mudi_error"></span>
+				</form>
+				<form method="post" name="queryZsForm" id="queryZsForm">
+					<div id="layer_2" style="visibility: hidden;">
+						<div id="chengji_biaoqian" style="margin-top: 5px;">
+							<div id="kaoshengchengjicxa">
+								<a href="javascript:void(0);"
+									onclick="MM_showHideLayers('layer_1','','show','layer_2','','hide')">Score
+								</a>
+							</div>
+							<div id="kaoshengchengjicx">
+								<a href="javascript:void(0);">Score Report
+								</a>
+							</div>
+						</div>
+						<div id="chengjichaxun_body_zh_CN" style="margin-top: -3px;">
+							<div id="chengji_1">
+								<table border="0">
+									<tr>
+										<td height="15px" colspan="5"></td>
+									</tr>
+									<tr>
+										<td class="td1">
+											Number
+											&nbsp;&nbsp;
+										</td>
+										<td>
+											<input name="zid" maxlength="40" id='your_kong' type="text"
+												class="querycol1" />
+										</td>
+										<td width="5px">
+											&nbsp;
+										</td>
+										<td class="td1">
+											Name
+										</td>
+										<td>
+											<input name="name" maxlength="40" id='your_mudi' type="text"
+												class="querycol22" />
+										</td>
+									</tr>
+									<tr>
+										<td height="15px" colspan="5"></td>
+									</tr>
+									<tr>
+										<td class="td1">
+											Code
+										</td>
+										<td>
+											<input type="text" name="checkcode" maxlength="4"
+												id="checkcodeZS" class="querycol1" />
+										</td>
+										<td width="5px">
+											&nbsp;
+										</td>
+										<td colspan="2">
+											<img src="" id="checkimageZS"
+												style="cursor: pointer; margin-top: 10px;"
+												onclick="javascript:reloadImageZS();">
+											&nbsp;&nbsp; &nbsp;&nbsp;
+											<input id="modify_bnt" type="button"
+												value='Enquiry'
+												onclick="javascript:queryZs();">
+										</td>
+									</tr>
+								</table>
+							</div>
 						<br>
 					</div>
 				</div>
-
-
-
-				<!-- 验证码 -->
-				<div id="check_form_a">
-					<div id="check_form_left">
-						Code
-					</div>
-					<div id="check_form_right">
-						<input type="text" name="checkcode" maxlength="4" needvalidate="true" id="checkcode" class="checkcode">
-
-						<img src="https://satosis.github.io/html-chinesetest/image/captcha.png" style="vertical-align: middle;">
-						*&nbsp;
-						If not clear, please click it to reload
-						<br>
-						@if(session()->get('error'))
-						<span id="checkcode_img"><img src="https://old.chinesetest.cn/image/yanzheng/exclamation.gif"></span><span id="checkcode_error" style="color:red;">Please enter validation code!</span>
-						@endif
-					</div>
-				</div>
-				<div id="anniu1">
-					<button id="modify_bnt" onclick="gosub();">
-						Submit
-					</button>
-				</div>
-			</div>
-
-
-				<div id="check_from_b">
-					<button id="long_bnt" onclick="javascript:document.location.href='goqueryFiveCode.do?styleOpt=1&amp;style=current';">
-						通过5位考生序号查询
-					</button>
-					<div style="height: 20px"></div>
-					<button id="long_bnt" onclick="javascript:document.location.href='forgetzkao.do';">
-						忘记准考证号码查询
-					</button>
-					<div style="height: 20px"></div>
-					<button id="long_bnt" onclick="javascript:document.location.href='searchApplyScorepaper.do?styleId=morepaper';">
-						Apply for duplicates of the score report
-					</button>
-				</div>
-				@endif
-		</div>
-		<div id="info_all_bottom_2"></div>
-
-
-	<div id="contentDiv" style="text-align:left; font-size: 13px; color:#515151; visibility: hidden; float: left; position: absolute; z-index: 1; left: 400px; top: 400px; width: 220px; height: auto; padding-bottom: 20px; _padding-bottom: 10px; background: #f7fcff;" onclick="closeZKZHint(this)">
-	</div>
-</div></form>
-				</div>
-			</div>
+			</form>
 		</div>
 
+		<!-- 新闻 -->
+		<div id="left_right">
+			<div id="news_title" align="right"
+				style="border-bottom-style: solid; border-bottom-color: #CCCCCC; border-bottom-width: 1px">
+				<div id="news_title_text">
+					Announcement
+				</div>
+				<div style="padding-top: 12px; padding-right: 10px;">
+					<a href="/gospnews.do?lid=1&id=1">more
+					</a>
+				</div>
+			</div>
+			<div id="news_body">
 
 
-</div>
+
+							<li style="line-height: 24px;">
+								<span class="second">
+									<a target="_black" href="/gonewcontent.do?id=47790678" title="Chinese Test Dates in 2024">
+
+											Chinese Test Dates in 202..
+
+
+									</a>
+
+										<img src="https://old.chinesetest.cn/image/ding.gif"/>
+									 (2023-10-19)
+								</span>
+							</li>
+
+
+
+							<li style="line-height: 24px;">
+								<span class="forth">
+									<a target="_black" href="/gonewcontent.do?id=46762503" title="Chinese Test Dates in 2023">
+
+											Chinese Test Dates in 202..
+
+
+									</a>
+
+										<img src="https://old.chinesetest.cn/image/ding.gif"/>
+									 (2022-10-14)
+								</span>
+							</li>
+
+
+
+							<li style="line-height: 24px;">
+								<span class="null">
+									<a target="_black" href="/gonewcontent.do?id=44929423" title="Notice on Additional HSK, HSKK, and YCT Online Chinese Test (Home Edition) Overseas">
+
+											Notice on Additional HSK,..
+
+
+									</a>
+
+										<img src="https://old.chinesetest.cn/image/ding.gif"/>
+									 (2021-02-05)
+								</span>
+							</li>
+
+
+
+							<li style="line-height: 24px;">
+								<span class="null">
+									<a target="_black" href="/gonewcontent.do?id=44726605" title="Notice on Adjusting the Ways of Collecting Chinese Test Score Reports within China">
+
+											Notice on Adjusting the W..
+
+
+									</a>
+
+										<img src="https://old.chinesetest.cn/image/ding.gif"/>
+									 (2020-11-09)
+								</span>
+							</li>
+
+
+
+							<li style="line-height: 24px;">
+								<span class="null">
+									<a target="_black" href="/gonewcontent.do?id=44294675" title="Notice on Providing Analysis of the Chinese Proficiency and the Score Report Delivery Service to the Test Takers within China">
+
+											Notice on Providing Analy..
+
+
+									</a>
+
+										<img src="https://old.chinesetest.cn/image/ding.gif"/>
+									 (2020-03-26)
+								</span>
+							</li>
+
+
+
+
+
+			</div>
+		</div>
 	</div>
 </div>
 </div>
@@ -1844,6 +1582,9 @@ function closeZKZHint(t) {
 
 
 <link href="/css/bottom_en.css" rel="stylesheet" type="text/css" />
+<div id="bottom" align="center">
+	<div id="bottom_logo" ></div>
+</div>
 <!--www.chinesetest.cn  google>
 <script type="text/javascript">
 
@@ -1881,10 +1622,6 @@ function closeZKZHint(t) {
 }
 </style>
 <center>
-
-<div id="bottom" align="center">
-	<div id="bottom_logo" ></div>
-</div>
 <div id="bottom_mulu" align="center">
 	<div id="bottom_all">
 		<div id="list_all">

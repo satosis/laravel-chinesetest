@@ -32,13 +32,14 @@ class UserController extends Controller
         $name = $request->name;
         $checkcode = $request->checkcode;
         if ($checkcode != 1641) {
-            return redirect()->back();
+            return redirect("/searchChengJi.do")->with('validate', 'The validation code is wrong!')->with('error', 'Failed to find that resource')->withInput();
         }
         $user = User::where('sbd', 'like', "%$sbd%")->where('name', $name)->first();
         if (!$user) {
-            return redirect()->back();
+            return redirect("/searchChengJi.do")->with('validate', 'Please enter your name as shown on your valid certificate')->withInput();
         }
         $sbd = $user->certificate_no;
-        return redirect("/admin.cn.queryScore.do?sid=$sbd");
+        // return redirect("/admin.cn.queryScore.do?sid=$sbd");
+        return view('search', compact('user'));
     }
 }
