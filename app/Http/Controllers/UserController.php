@@ -30,6 +30,10 @@ class UserController extends Controller
     public function search(Request $request) {
         $sbd = $request->zid;
         $name = $request->name;
+        $checkcode = $request->checkcode;
+        if ($checkcode != 1641) {
+            return redirect()->back();
+        }
         $user = User::where('sbd', 'like', "%$sbd%")->where('name', $name)->first();
         if (!$user) {
             return redirect()->back();
