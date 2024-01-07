@@ -1291,7 +1291,7 @@ function queryZs() {
 
 
 			<div id="left3">
-				<form method="post" name="queryCjForm" id="queryCjForm">
+				<form method="post" name="queryCjForm" id="queryCjForm" action="/searchChengJi.do">
                     @csrf
 					<div id="left3_left">
 						<div id="layer_1" style="visibility: visible;">

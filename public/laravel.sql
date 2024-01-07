@@ -118,7 +118,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `avatar`, `sex`, `sbd`, `certificate_no`, `level`, `date`, `speaking_point`, `listening_point`, `reading_point`, `writting_point`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'PHẠM MINH HOÀNG\r\n', '/image/PHẠM%20MINH%20HOÀNG%20HSK4HSKK.jpg', '男', 'H41819850020000845 H82225455300014845', 'H41819800561', 'HSK四级', 'Aug 20, 2023', '65', '60', '75', '82', NULL, NULL, NULL),
+(1, 'PHẠM MINH HOÀNG', '/image/PHẠM%20MINH%20HOÀNG%20HSK4HSKK.jpg', '男', 'H41819850020000845 H82225455300014845', 'H41819800561', 'HSK四级', 'Aug 20, 2023', '65', '60', '75', '82', NULL, NULL, NULL),
 (2, 'NGUYỄN TRÍ DŨNG', '/image/NGUYỄN%20TRÍ%20DŨNG%20HSK4HSKK.jpg', '男', 'H41819960020000048 H82000454000099645', 'H41819600442', 'HSK四级', 'Aug 20, 2023', '62', '70', '75', '85', NULL, NULL, NULL),
 (3, 'NGUYỄN TRÍ DŨNG', '/image/NGUYỄN%20TRÍ%20DŨNG%20HSK4HSKK.jpg', '男', 'H41819960020000048 H82000454000099645', 'H41819600442', 'HSK四级', 'Aug 20, 2023', '62', '70', '75', '85', NULL, NULL, NULL),
 (4, 'PHAN THỊ MỸ HÒA', '/image/PHAN%20THỊ%20MỸ%20HÒA%20HSK4.jpg', '女', 'H42010850070000032 H82004006445210087', 'H42009037222', 'HSK四级', 'Aug 20, 2023', '0', '60', '75', '82', NULL, NULL, NULL),
