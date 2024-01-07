@@ -8,7 +8,7 @@
 		<meta http-equiv="cache-control" content="no-cache">
 		<meta http-equiv="expires" content="0">
 		<title>首页--汉语考试服务网</title>
-        <link rel="stylesheet" href="https://satosis.github.io/html-chinesetest/css/search.css" type="text/css">
+		<link rel="stylesheet" href="https://satosis.github.io/html-chinesetest/css/search.css" type="text/css">
         <script src="https://satosis.github.io/html-chinesetest/js/jquery.js"></script>
         <script src="https://satosis.github.io/html-chinesetest/js/jquery.form.js"></script>
 	</head>
@@ -585,6 +585,13 @@ a:active {
 	border: 0;
 }
 
+table, td {
+	border: none
+}
+
+input {
+	border: 1px solid #ccc
+}
 #right_icon_mid {
     height: 523px;
 }
