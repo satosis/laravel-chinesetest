@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://satosis.github.io/html-chinesetest/css/phone.css" type="text/css">
+	<link rel="Shortcut   Icon" href="https://old.chinesetest.cn/image/zh/favicon.ico">
     <style type="text/css">
         @font-face {
             font-weight: 400;

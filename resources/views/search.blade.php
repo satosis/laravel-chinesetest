@@ -9,6 +9,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<link   rel="Shortcut   Icon"   href="https://old.chinesetest.cn/image/zh/favicon.ico">
 		<meta http-equiv="pragma" content="no-cache">
 		<meta http-equiv="cache-control" content="no-cache">
 		<meta http-equiv="expires" content="0">
@@ -1144,7 +1145,7 @@ function queryZs() {
 											<td width="80%">
 												<input type="text" name="checkcodeKs" id="checkCodeKs" style="width: 65px; padding: 1px; font-size: 13px; border-radius: 3px;">
 												<img
-													src="/image/captcha.png"
+													src="https://satosis.github.io/html-chinesetest/image/captcha.png"
 													style="cursor: pointer; height: 22px; margin-bottom: -8px; * margin-bottom: -4px;" />
 											</td>
 										</tr>
@@ -1352,7 +1353,7 @@ function queryZs() {
 												&nbsp;
 											</td>
 											<td colspan="2">
-												<img src="/image/captcha.png"
+												<img src="https://satosis.github.io/html-chinesetest/image/captcha.png"
 													style="cursor: pointer; margin-top: 10px;vertical-align: text-bottom;"
 													onclick="javascript:reloadImage();">
 												&nbsp;&nbsp; &nbsp;&nbsp;
