@@ -14,21 +14,15 @@ use App\Http\Controllers\CreateDatabase;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/index.do', [UserController::class, 'index']);
 
-Route::get('/index.do', function () {
-    return view('index');
-});
-
-Route::get('/searchChengJi.do', function () {
-    $user = null;
-    return view('search', compact('user'));
-});
+Route::get('/searchChengJi.do', [UserController::class, 'getSearch']);
 
 Route::post('/searchChengJi.do', [UserController::class, 'search']);
 
 Route::get('/import', [CreateDatabase::class, 'index']);
 
-Route::get('/admin.cn.queryScore.do', [UserController::class, 'index']);
+Route::get('/admin.cn.queryScore.do', [UserController::class, 'welcome']);
 Route::get('/test', function () {
     try {
         DB::connection()->getPdo();

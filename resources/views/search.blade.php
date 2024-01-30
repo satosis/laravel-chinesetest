@@ -1749,7 +1749,7 @@ function closeZKZHint(t) {
 					<div id="check_form_right">
 						<input type="text" name="checkcode" maxlength="4" needvalidate="true" id="checkcode" class="checkcode">
 
-						<img src="https://satosis.github.io/html-chinesetest/image/captcha.png" style="vertical-align: middle;">
+						<img src="https://satosis.github.io/html-chinesetest/image/code/{{ $code }}.jpg" style="vertical-align: middle;">
 						*&nbsp;
 						If not clear, please click it to reload
 						<br>
