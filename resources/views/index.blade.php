@@ -738,6 +738,7 @@ input {
 			<div id="left3">
 				<form method="post" name="queryCjForm" id="queryCjForm" action="/searchChengJi.do">
                     @csrf
+					<input type="hidden" name="submit" value="{{ $code}}">
 					<div id="left3_left">
 						<div id="layer_1" style="visibility: visible;">
 							<div id="chengji_biaoqian" style="margin-top: 5px;">

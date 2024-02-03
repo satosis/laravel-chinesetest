@@ -52,8 +52,9 @@ class UserController extends Controller
     public function search(Request $request) {
         $sbd = $request->zid;
         $name = $request->name;
+        $submit = $request->submit;
         $checkcode = $request->checkcode;
-        if ($checkcode != Session::get('code')) {
+        if ($checkcode != $submit) {
             return redirect("/searchChengJi.do")->with('validate', 'The validation code is wrong!')->with('error', 'Failed to find that resource')->withInput();
         }
         $user = User::where('sbd', 'like', "%$sbd%")->where('name', $name)->first();
