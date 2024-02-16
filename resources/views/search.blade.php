@@ -1609,7 +1609,13 @@ function closeZKZHint(t) {
 
 
 
-											HSKK（中级）
+											HSKK（
+										@if($user->id > 38 && $user->id < 44)
+											高级
+										@else
+											中级
+										@endif
+											）
 
 										({{ $user->date }})汉语水平考试
 
