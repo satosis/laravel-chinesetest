@@ -1731,6 +1731,7 @@ function closeZKZHint(t) {
 					</div>
 				</div>
 				<!-- 姓名 -->
+                <input type="hidden" name="code" value="{{ $code }}">
 				<div id="check_form_a">
 					<div id="check_form_left">
 						Name
