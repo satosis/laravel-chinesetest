@@ -755,6 +755,7 @@ input {
 							</div>
 							<div id="chengjichaxun_body_zh_CN" style="margin-top: -3px;">
 								<div id="chengji_1" style="align: left">
+								<input type="hidden" name="code" value="{{ $code }}">
 									<table border="0">
 										<tr>
 											<td height="15px" colspan="5"></td>
